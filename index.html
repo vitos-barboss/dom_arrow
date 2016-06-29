@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+
+    <style>
+        .block {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 50% 152%, black 16%, red 54%, white 100%);
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            transition:  1.5s ;
+            transition-timing-function: easy;
+        }
+
+        .numWindow {
+            width: 30px;
+            height: 30px;
+            color: whitesmoke;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .wrapper {
+            background-color: blue;
+            border-radius: 3px;
+            width: 30px;
+            height: 30px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <span>Step:</span>
+    <button id="btnUpStep">+</button>
+    <button id="btnDownStep">-</button>
+
+    <div class="wrapper">
+        <div class="numWindow"></div>
+    </div>
+
+
+        <div class="block"></div>
+
+
+
+    <script src="js/dom_arrow.js"></script>
+</body>
+</html>
